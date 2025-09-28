@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainSection {
+    width: 100%;
+    background-image: url(./pic/pg1.jpg);
+    background-size: 100% 100%;
+    padding: 100px 5%
+}
+
+.mainSection .moaquit {
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.272);
+    box-shadow: 3px 3px 3px aliceblue;
+    padding: 20px 20px;
+    position: relative;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.mainSection .moaquit .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 2px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px #cccccc88;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.mainSection .moaquit .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.mainSection .moaquit .divs .date {
+    width: 100%;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.mainSection .moaquit .divs span {
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.mainSection .moaquit .divs .salawatTimes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 50px;
+}
+
+.mainSection .moaquit .divs .salawatTimes div {
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 3px solid blueviolet;
+    background-color: rgba(240, 248, 255, 0.329);
+    color: blueviolet;
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 42px;
+    font-family: monospace;
+}
