@@ -68,7 +68,7 @@ function fillCities() {
 fillCities();
 
 
-const url = `http://api.aladhan.com/v1/timingsByCity?country=EG`
+const url = `https://api.aladhan.com/v1/timingsByCity?country=EG`
 function getTimings(cityName) {
     axios.get(`${url}&city=${cityName}`)
     .then((Response) => {
@@ -113,5 +113,6 @@ function getTimingsOfCity() {
         })
     })
 }
+
 
 getTimingsOfCity()
