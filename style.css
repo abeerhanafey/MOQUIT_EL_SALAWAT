@@ -62,8 +62,15 @@
     width: 100%;
     padding: 30px 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: aliceblue;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+}
+
+.mainSection .moaquit .divs .date h2 {
+    font-size: 25px;
+
 }
 
 .mainSection .moaquit .divs span {
@@ -99,4 +106,21 @@ h1 {
     text-align: center;
     font-size: 42px;
     font-family: monospace;
+}
+
+@media screen and (max-width: 700px) {
+    .mainSection {
+        background-image: url(./pic/mobileBg2.jpg);
+    }
+
+    .mainSection .moaquit .divs .salawatTimes div {
+        text-shadow: 1px 1px 2px aliceblue;
+        color: rgb(27, 0, 52);
+    }
+
+    .mainSection .moaquit .divs .date h2 {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(18, 2, 33);
+
+}
 }
