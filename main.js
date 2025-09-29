@@ -75,8 +75,12 @@ function getTimings(cityName) {
         console.log(Response);
         console.log(Response.data.data.date);
         
-        document.querySelector(".milady").innerHTML = `<h2>${Response.data.data.date.gregorian.date}</h2>`
-        document.querySelector(".higri").innerHTML = `<h2>${Response.data.data.date.hijri.date}</h2>`
+        document.querySelector(".milady").innerHTML = `
+        <h2>${Response.data.data.date.gregorian.date} <= التاريخ الميلادي</h2>
+        `
+        document.querySelector(".higri").innerHTML = `
+        <h2>${Response.data.data.date.hijri.date} <= التاريخ الهجري </h2>
+        `
         let salawatTimes = Response.data.data.timings
         console.log(salawatTimes);
         let timings = document.querySelector(".salawatTimes")
@@ -113,6 +117,5 @@ function getTimingsOfCity() {
         })
     })
 }
-
 
 getTimingsOfCity()
