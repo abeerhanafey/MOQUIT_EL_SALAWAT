@@ -119,3 +119,4 @@ function getTimingsOfCity() {
 }
 
 getTimingsOfCity()
+
